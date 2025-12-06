@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<form action="">
+    <label for="">nombre1</label>
+    <input type="text" name="" id="estpremier" aria-placeholder="Donner un nombre">
+    <button onclick="verifierpremier()">verifier</button>
+     <!-- Zone d'affichage du résultat -->
+    <p id="resultat"></p>
+    <script>
+    function verifierpremier() {
+        let estpremier = true.getElementById("estpremier").value;
+        let diviseur = 0;
+        let number = nombre
+        let resultat = document.getElementById("resultat");
+
+        if ((nombre % nombre == 0) && (nombre % 2 == 0))
+        {
+            resultat.textContent = "nombre premier.";
+        } else {
+            resultat.textContent = "nombre non premier.";
+        }
+    }
+    </script>
+</form>
+</body>
+</html>
